@@ -8,6 +8,7 @@ public class ValidarContrasenia : MonoBehaviour
     string contraseniaCorrecta;
     string contraseniaUsuario;
     public Text ingresousuario;
+    public Text textomsj;
     public GameObject cartelitomsj;
     // Start is called before the first frame update
     void Start()
@@ -27,10 +28,13 @@ public class ValidarContrasenia : MonoBehaviour
         contraseniaUsuario = ingresousuario.text;
         if (contraseniaUsuario == contraseniaCorrecta)
         {
+            cartelitomsj.SetActive(true);
+            textomsj.text = "Bienvenido";
             Debug.Log("Bienvenido");
         }
         else
         {
+            textomsj.text = "Contraseña Incorrecta";
             Debug.Log("Contraseña Incorrecta");
         }
     }

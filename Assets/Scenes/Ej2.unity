@@ -561,7 +561,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ingresousuario: {fileID: 308748442}
-  cartelitomsj: {fileID: 0}
+  textomsj: {fileID: 1558895205}
+  cartelitomsj: {fileID: 1783711645}
 --- !u!4 &520367928
 Transform:
   m_ObjectHideFlags: 0
@@ -1144,7 +1145,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1783711646
 RectTransform:
   m_ObjectHideFlags: 0
