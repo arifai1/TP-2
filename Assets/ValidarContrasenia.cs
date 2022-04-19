@@ -34,6 +34,7 @@ public class ValidarContrasenia : MonoBehaviour
         }
         else
         {
+            cartelitomsj.SetActive(true);
             textomsj.text = "Contraseña Incorrecta";
             Debug.Log("Contraseña Incorrecta");
         }
